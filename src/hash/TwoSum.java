@@ -3,6 +3,12 @@ package hash;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author jzm
+ * Runtime: 1 ms, faster than 99.96% of Java online submissions for Two Sum.
+ * Memory Usage: 39.6 MB, less than 79.79% of Java online submissions for Two Sum.
+ *
+ */
 public class TwoSum {
 
 	public static void main(String[] args) {
