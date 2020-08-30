@@ -1,7 +1,9 @@
-package linkedlist.addtwonumbers;
+package linkedlist.removenthfromend;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import linkedlist.addtwonumbers.ListNode;
 
 public class RemoveNthFromEnd {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
