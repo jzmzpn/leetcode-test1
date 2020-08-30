@@ -31,33 +31,25 @@ public class RemoveNthFromEnd {
 		Map<Integer, ListNode> mapNode = new HashMap<>();
 		ListNode root = head;
 		int index = 0;
-		
 		ListNode pre = head;
 		ListNode next = null;
 		while(head != null) {
-			
 			if(index > n) {
 				pre = pre.next;
 			}
 			if(index >= n) {
 				if(pre.next != null) {
 					next = pre.next.next;
-					System.out.println("---" + next);
 				}
 				else 
 					next = null;
 			}
-			
 			index ++;
 			head = head.next;
 		}
 		n = index - n;
-		System.out.println(pre);
-		System.out.println(next);
 		if(n < 0) return root;
 		if(n == 0) return root.next;
-		
-		
 		pre.next = next;
 		return root;
     }
