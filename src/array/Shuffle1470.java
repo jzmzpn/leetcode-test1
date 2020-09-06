@@ -7,10 +7,6 @@ public class Shuffle1470 {
         	res[i * 2] = nums[i];
         	res[i * 2 + 1]= nums[i + n];
         }
-        for (int i : res) {
-			System.out.println(i);
-			
-		}
         return res;
     }
 	
